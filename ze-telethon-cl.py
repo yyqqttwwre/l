@@ -54,11 +54,11 @@ try:
 except FileNotFoundError:
     api_id = '25281175'
     api_hash = '6d99cb2b60a2c519fc1f99bd19565730'
-    bot_token = '6635986173:AAEBuYxPVay10-qYXqrIlXj7Fyr8syQK7jM'
-    DEVLOO = '6581896306'
+    bot_token = '6343140682:AAEAGh7g4-e93l5N7crTZOE6DubSwBuM-YI'
+    DEVLOO = '5207032121'
     MAX_ACCOUNTS = int('30')
-    user_bot = 'ee0obot'
-    id_bot = int('6635986173')
+    user_bot = 'TTEESSTTB1BOT'
+    id_bot = int('6343140682')
     
     data = {
         'api_id': api_id,
@@ -160,8 +160,24 @@ async def start(event):
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
          [Button.inline('༺ 🔱 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🔱 ༻', 'button0')]
         ]
-        await bot.send_message(chat, '''p
-        
+        await bot.send_message(chat, '''**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
+╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
+╰─╯ ┈┴┈ ┈┴┈ ┴┈┴ ╰─╯ ╯╰╯ ⇲**''', buttons=buttons)
+
+
+@bot.on(events.CallbackQuery(pattern='da3mkom'))
+async def back(event):
+        buttons = [
+           
+            [Button.inline('تجميع', 'co36llec57t'), Button.inline('تحويل', 'tr46nsf6er')],
+            [Button.inline('كود هدية', 'gf4cobe'), Button.inline('هدية يومية', 'g7aif4')]
+        ]
+        await event.edit("""**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
+╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
+╰─╯ ┈┴┈ ┈┴┈ ┴┈┴ ╰─╯ ╯╰╯ ⇲**""", buttons=buttons)
+
+@bot.on(events.CallbackQuery(pattern='back'))
+async def back(event):
         buttons = [
            
             [Button.inline('اضافة رقـم ✚', 'button1'), Button.inline('حـذف رقـم ⌫', 'delete')],
@@ -181,9 +197,9 @@ async def start(event):
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
          [Button.inline('༺ 🔱 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🔱 ༻', 'button0')]
         ]
-        await event.edit("""**──╮╭─
-╭─╯│┈
-╰──╰─⇲**""", buttons=buttons)
+        await event.edit("""**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
+╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
+╰─╯ ┈┴┈ ┈┴┈ ┴┈┴ ╰─╯ ╯╰╯ ⇲**""", buttons=buttons)
 
 
 
@@ -344,9 +360,9 @@ async def start(event):
         
          [Button.inline('༺ 🔱 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🔱 ༻', 'button0')]
         ]
-        await bot.send_message(chat, '''**──╮╭─
-╭─╯│┈
-╰──╰─⇲**''', buttons=buttons)
+        await bot.send_message(chat, '''**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
+╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
+╰─╯ ┈┴┈ ┈┴┈ ┴┈┴ ╰─╯ ╯╰╯ ⇲**''', buttons=buttons)
 
 
 #--------------------------------------------------------#
