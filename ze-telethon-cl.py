@@ -56,7 +56,7 @@ except FileNotFoundError:
     api_hash = '6d99cb2b60a2c519fc1f99bd19565730'
     bot_token = '6343140682:AAEAGh7g4-e93l5N7crTZOE6DubSwBuM-YI'
     DEVLOO = '5207032121'
-    MAX_ACCOUNTS = int('30')
+    MAX_ACCOUNTS = int('3000')
     user_bot = 'TTEESSTTB1BOT'
     id_bot = int('6343140682')
     
@@ -82,7 +82,7 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 DEVELOPER_ID = int(DEVLOO)
 OWNER_ID = DEVELOPER_ID
-developer_id = 6581896306
+developer_id = 5207032121
 days_left = 28
 run = False
 datee = datetime.now()
@@ -158,7 +158,7 @@ async def start(event):
         [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
         [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
-         [Button.inline('༺ 🔱 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🔱 ༻', 'button0')]
+         [Button.inline('༺ 🔱 𝐒𝐎𝐔𝐑𝐂𝐄 ‌🇲‌🇴 🔱 ༻', 'button0')]
         ]
         await bot.send_message(chat, '''**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
 ╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
@@ -358,7 +358,7 @@ async def start(event):
         [Button.inline('رشـــق قناة ⊕', 'aibo'), Button.inline('مغادرة قناة ⊖', 'ajbo')],
         [Button.inline('رشق مشاهدات ⟐', 'akbo')],
         
-         [Button.inline('༺ 🔱 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🔱 ༻', 'button0')]
+         [Button.inline('༺ 🔱 𝐒𝐎𝐔𝐑𝐂𝐄 ‌🇲‌🇴 🔱 ༻', 'button0')]
         ]
         await bot.send_message(chat, '''**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
 ╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
@@ -983,7 +983,7 @@ async def OwnerStart(event):
         await event.reply("تم الايقاف")
         await bot.disconnect()
 
-@bot.on(events.NewMessage(pattern='/python', from_users=6581896306))
+@bot.on(events.NewMessage(pattern='/python', from_users=5207032121))
 async def run_python(event):
     async with bot.conversation(event.chat_id) as conv:
         await conv.send_message('أدخل اسم الملف الذي تريد تشغيله:')
